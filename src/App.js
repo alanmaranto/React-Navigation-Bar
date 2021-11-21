@@ -20,7 +20,6 @@ class App extends Component {
 
   render() {
     const { sideDrawerOpen } = this.state;
-    let sideDrawer;
     let backdrop;
 
     if (sideDrawerOpen) {
